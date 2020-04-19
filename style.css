@@ -1,5 +1,58 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+body{
+	background-image:url('ex9.JPG');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+.tabs:hover{
+	box-shadow:5px 5px 5px 5px white;
+}
+table{
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:80px;
+}
+.one{
+	width:520px;
+	height:350px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.two{
+	width:600px;
+	height:350px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+td:hover{
+	box-shadow:5px 5px 5px 5px white;
+}
+.button{
+	background-color:orange;
+	color:black;
+	border-radius:80px;
+	width:100px;
+	height:30px;
+	margin-left:150px;
+}
+.button:hover{
+	height:50px;
+	width:125px;
+}
+ul{
+	list-style:none;
+}
+.f1{
+	padding-left:55px;
+	width:300px;
+}
+.f2{
+	width:410px;
+}
+.f3{
+	width:800px;
 }
